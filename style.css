@@ -534,6 +534,12 @@ a.hh:active{
             padding-right: 15px;
         }
 
+        .about1{
+            margin: initial;
+            justify-content: center;
+            
+        }
+
 
 }
 
