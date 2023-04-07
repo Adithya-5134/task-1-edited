@@ -27,17 +27,14 @@ function normalmenu(){
     }
     else if(window.innerWidth <=782){
         limenu.style.display='none';
+        
     }
 }
 
 window.addEventListener('resize',normalmenu);
  
 
-function loader(){ 
-        limenu.style.display='none';        
-}
 
-window.addEventListener('load',loader)
 
 
 

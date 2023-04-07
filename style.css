@@ -464,6 +464,10 @@ a.hh:active{
 
     }
 
+    #menu{
+        display: none;
+    }
+
     li.act{
         border-style: none;
         border-radius: unset;
