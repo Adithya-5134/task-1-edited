@@ -33,17 +33,8 @@ function normalmenu(){
 window.addEventListener('resize',normalmenu);
  
 
-function loader(){
-    if(limenu.style.display=='block'){
-        limenu.style.display='none';
-        
-    }
-    else{
-        limenu.style.display='none'
-    }
-    // else if( limenu.style.display='none'){
-        
-    // }
+function loader(){ 
+        limenu.style.display='none';        
 }
 
 window.addEventListener('load',loader)
