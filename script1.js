@@ -38,9 +38,12 @@ function loader(){
         limenu.style.display='none';
         
     }
-    else if( limenu.style.display='none'){
-        
+    else{
+        limenu.style.display='none'
     }
+    // else if( limenu.style.display='none'){
+        
+    // }
 }
 
 window.addEventListener('load',loader)
